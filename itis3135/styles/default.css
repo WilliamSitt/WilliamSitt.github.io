@@ -1,0 +1,9 @@
+body {
+    background-color: rgba(255, 229, 72, 1);
+    color: rgba(151, 45, 7, 1);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+}
