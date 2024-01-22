@@ -22,10 +22,10 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color:rgba(255, 105, 12, 1)
+a:visited {
+    color: rgba(255, 25, 152, 0.2);
 }
 
-a:visited {
-    color: rgba(255, 25, 12, 0.5)
+a:hover {
+    color:rgba(255, 155, 12, 1);
 }
