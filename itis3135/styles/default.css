@@ -29,3 +29,15 @@ a:visited {
 a:hover {
     color:rgba(255, 155, 12, 1);
 }
+
+table tr:nth-child(odd) {
+    background-color: rgba(245, 178, 15, 1);
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(235, 209, 52, 0.7);
+}
+
+table tr:first-child {
+    background-color: rgba(255, 128, 15, 1);
+}
