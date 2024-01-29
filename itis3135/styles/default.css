@@ -45,6 +45,7 @@ table tr:nth-child(odd) {
 
 table tr:nth-child(even) {
     background-color: var(--vista-blue);
+    color: var(--pearl);
 }
 
 table tr:first-child {
