@@ -35,7 +35,7 @@ a:visited {
 }
 
 a:hover {
-    color: var(--vista-blue)
+    color: rgba(247, 28, 12, 1);
 }
 
 table tr:nth-child(odd) {
