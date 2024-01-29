@@ -40,7 +40,7 @@ a:hover {
 }
 
 table tr:nth-child(odd) {
-    background-color: var(--cornell-red);
+    background-color: var(--off-red);
     color: var(--pearl);
 }
 
@@ -50,7 +50,7 @@ table tr:nth-child(even) {
 }
 
 table tr:first-child {
-    background-color: var(--seal-brown);
+    background-color: var(--cornell-red);
     color: var(--pearl);
 }
 
