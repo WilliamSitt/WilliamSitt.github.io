@@ -51,7 +51,7 @@ table tr:first-child {
 }
 
 form button {
-    background-color: rgba(255, 128, 15, 1);
+    background-color: var(--seal-brown);
     color: var(--pearl);
     border-color: var(--cornell-red);
     font-family: 'Poppins', sans-serif;
@@ -64,8 +64,8 @@ form select {
 
 form select, form input {
     background-color: var(--vista-blue);
-    color: rgba(247, 28, 12, 1);
-    border-color: rgba(255, 128, 15, 1);
+    color: var(--seal-brown);
+    border-color: var(--seal-brown);
 }
 
 form, form select, form input {
