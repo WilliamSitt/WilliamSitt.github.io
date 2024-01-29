@@ -39,7 +39,7 @@ a:hover {
 }
 
 table tr:nth-child(odd) {
-    background-color: rgba(245, 178, 15, 1);
+    background-color: rgba(205, 108, 15, 1);
 }
 
 table tr:nth-child(even) {
@@ -53,7 +53,7 @@ table tr:first-child {
 form button {
     background-color: rgba(255, 128, 15, 1);
     color: rgba(245, 240, 166, 1);
-    border-color: rgba(245, 178, 15, 1);
+    border-color: var(--vista-blue);
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
 }
@@ -65,7 +65,7 @@ form select {
 form select, form input {
     background-color: rgba(245, 241, 15, 1);
     color: rgba(247, 28, 12, 1);
-    border-color: rgba(245, 178, 15, 1);
+    border-color: rgba(255, 128, 15, 1);
 }
 
 form, form select, form input {
