@@ -27,7 +27,7 @@ a:visited {
 }
 
 a:hover {
-    color:rgba(255, 155, 12, 1);
+    color: rgba(88, 39, 7, 1);
 }
 
 table tr:nth-child(odd) {
