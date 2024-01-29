@@ -53,7 +53,7 @@ table tr:first-child {
 form button {
     background-color: rgba(255, 128, 15, 1);
     color: rgba(245, 240, 166, 1);
-    border-color: var(--vista-blue);
+    border-color: var(--cornell-red);
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
 }
