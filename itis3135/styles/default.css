@@ -63,7 +63,7 @@ form select {
 }
 
 form select, form input {
-    background-color: rgba(245, 241, 15, 1);
+    background-color: var(--vista-blue);
     color: rgba(247, 28, 12, 1);
     border-color: rgba(255, 128, 15, 1);
 }
