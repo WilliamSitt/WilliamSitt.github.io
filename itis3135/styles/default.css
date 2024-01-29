@@ -1,6 +1,14 @@
+:root {
+    --cornell-red: #b3001bff;
+    --seal-brown: #582707ff;
+    --pearl: #e7dfc6ff;
+    --vista-blue: #7ea3ccff;
+    --selective-yellow: #ffb20fff;
+}
+
 body {
-    background-color: rgba(255, 229, 72, 1);
-    color: rgba(151, 45, 7, 1);
+    background-color: var(--selective-yellow);
+    color: var(--seal-brown);
     font-family: 'Poppins', sans-serif;
     margin: 0 125px;
 }
@@ -18,16 +26,16 @@ header, footer {
 }
 
 a {
-    color: rgba(255, 75, 62, 1);
+    color: var(--cornell-red);
     text-decoration: none;
 }
 
 a:visited {
-    color: rgba(255, 75, 62, 1);
+    color: var(--cornell-red);
 }
 
 a:hover {
-    color: rgba(88, 39, 7, 1);
+    color: var(--vista-blue)
 }
 
 table tr:nth-child(odd) {
