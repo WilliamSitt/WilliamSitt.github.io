@@ -1,5 +1,6 @@
 :root {
     --cornell-red: #b3001bff;
+    --off-red: #f71c0cff;
     --seal-brown: #582707ff;
     --pearl: #e7dfc6ff;
     --vista-blue: #7ea3ccff;
@@ -35,7 +36,7 @@ a:visited {
 }
 
 a:hover {
-    color: rgba(247, 28, 12, 1);
+    color: var(--off-red);
 }
 
 table tr:nth-child(odd) {
