@@ -14,6 +14,12 @@ body {
     margin: 0 9%;
 }
 
+main {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 h1, h2, h3 {
     font-family: 'DM Serif Display', serif;
 }
@@ -23,7 +29,7 @@ header, footer, img, figure, h1, h2 {
 }
 
 header, footer {
-    margin: 25px 0;
+    margin: 2% 0;
 }
 
 a {
@@ -71,4 +77,32 @@ form select, form input, form button {
 
 form, form select, form input {
     font-family: 'DM Serif Display', serif;
+}
+
+/* Rule Overrides For Laptops / Small Screens */
+@media screen and ( min-width: 981px ) and ( max-width: 1400px ) {
+    main {
+        width: 90%;
+    }
+    img {
+        max-width: 62.5%;
+    }
+}
+/* Rule Overrides For Tablet Devices */
+@media screen and ( min-width: 601px ) and ( max-width: 980px )  {
+    main {
+        width: 90%;
+    }
+    img {
+        max-width: 50%;
+    }
+}
+/* Rule Overrides For Mobile Devices */
+@media screen and ( min-width: 370px ) and ( max-width: 600px ) {
+    main {
+        width: 85%;
+    }
+    img {
+        max-width: 45%;
+    }
 }
