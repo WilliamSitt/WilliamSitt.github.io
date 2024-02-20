@@ -12,6 +12,7 @@ body {
     color: var(--seal-brown);
     font-family: 'Poppins', sans-serif;
     margin: 0 9%;
+    font-size: 150%;
 }
 
 main {
@@ -80,21 +81,18 @@ form button, form select {
 
 /* Rule Overrides For Laptops / Small Screens */
 @media screen and ( min-width: 981px ) and ( max-width: 1400px ) {
-    body {
-        font-size: 150%;
-    }
     main {
         width: 90%;
     }
     img {
         max-width: 62.5%;
     }
+    form select {
+        width: 100%;
+    }
 }
 /* Rule Overrides For Tablet Devices */
 @media screen and ( min-width: 601px ) and ( max-width: 980px )  {
-    body {
-        font-size: 150%;
-    }
     main {
         width: 90%;
     }
@@ -109,7 +107,7 @@ form button, form select {
     }
 }
 /* Rule Overrides For Mobile Devices */
-@media screen and ( min-width: 280px ) and ( max-width: 600px ) {
+@media screen and ( min-width: 370px ) and ( max-width: 600px ) {
     body {
         font-size: 120%;
     }
@@ -121,6 +119,24 @@ form button, form select {
     }
     form button, form select {
         font-size: 60%;
+    }
+    form select {
+        width: 100%;
+    }
+}
+/* Rule Overrides For Galaxy Fold Dimensions*/
+@media screen and ( max-width: 280px ) {
+    body {
+        font-size: 120%;
+    }
+    main {
+        width: 85%;
+    }
+    img {
+        max-width: 100%;
+    }
+    form button, form select {
+        font-size: 45%;
     }
     form select {
         width: 100%;
