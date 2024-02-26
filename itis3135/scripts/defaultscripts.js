@@ -8,6 +8,10 @@ const dayOfMonth = date.getDate();
 const month = date.getMonth();
 const year = date.getFullYear();
 
+const nameInput = document.getElementById('name-input');
+const moodInput = document.getElementById('mood-input');
+const submitBtn = document.getElementById('submit-btn');
+
 let twelveHourFormat;
 let timePeriod;
 if (hours == 24) {
