@@ -103,3 +103,5 @@ if (minutes < 10) {
 const formattedDate = `Today is ${twelveHourFormat}:${formattedMinutes} ${timePeriod} on 
 ${formattedDayOfWeek}, ${formattedMonth} ${dayOfMonth}, ${year}`;
 currentDate.textContent = formattedDate;
+
+submitBtn.addEventListener('click');
